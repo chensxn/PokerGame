@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerGameConsole", "PokerGameConsole\PokerGameConsole.csproj", "{12432AB7-1B2C-4B62-899E-46E0450C5574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerGameLib", "PokerGameLib\PokerGameLib.csproj", "{6E43CCC9-3B3F-48CE-944C-C716786729B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12432AB7-1B2C-4B62-899E-46E0450C5574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12432AB7-1B2C-4B62-899E-46E0450C5574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12432AB7-1B2C-4B62-899E-46E0450C5574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12432AB7-1B2C-4B62-899E-46E0450C5574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E43CCC9-3B3F-48CE-944C-C716786729B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E43CCC9-3B3F-48CE-944C-C716786729B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E43CCC9-3B3F-48CE-944C-C716786729B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E43CCC9-3B3F-48CE-944C-C716786729B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70740736-F233-4432-9999-01E55A460DF2}
+	EndGlobalSection
+EndGlobal
