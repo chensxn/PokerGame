@@ -13,7 +13,7 @@ namespace PokerGame
         public int GetFromLine;     //从哪一行取牌
         public int GetPokerCount;   //取多少张牌
     }
-    //玩家接口, 实现了双向链表, 指向前一个玩家和后一个玩家, 为了可扩展为多人游戏
+    //玩家接口, 实现了双向循环链表, 指向前一个玩家和后一个玩家, 为了可扩展为多人游戏
     public interface IPlayer
     {
         string Name { get; set; }
