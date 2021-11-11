@@ -42,7 +42,7 @@ namespace PokerGame
             new int[]{0,5,5},
             new int[]{1,2,3},
             new int[]{1,4,5},
-            new int[]{3,4,5}
+            new int[]{2,4,6}
         };
         /// <summary>
         /// 比较两个局面是否相同
