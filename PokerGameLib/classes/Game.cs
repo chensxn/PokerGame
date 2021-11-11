@@ -29,7 +29,7 @@ namespace PokerGame
             GameRule = rule;
             Players = players;
             UI = ui;
-            //为玩家对象搭建好双向链表
+            //为玩家对象搭建好双向循环链表
             for (int i = 0; i < players.Length; i++)
             {
                 if (i < players.Length - 1)
