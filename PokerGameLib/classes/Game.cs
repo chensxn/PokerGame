@@ -55,7 +55,7 @@ namespace PokerGame
             CurrentPlayer = Players[0];
             StringBuilder sb = new StringBuilder();
             int total = InitSetting.InitSituation.Sum();
-            sb.AppendFormat("将{0}张牌, 分成{1}行, 安排{1}个玩家，每人可以在一轮内，在任意行拿任意张牌，但不能跨行, 拿最后一张牌的人即为输家",
+            sb.AppendFormat("将{0}张牌, 分成{1}行, 安排{1}个玩家，每人可以在一轮内，在任意行拿任意张牌，但不能跨行, 拿最后一张牌的人即为输家/n请输入两个数字, 代表要从第几行取多少个牌, 中间用空格分隔, 例如输入: 2 3 表示从第2行取3个",
                 total, InitSetting.LineCount);
             UI.ShowGameDescription(sb.ToString());
             UI.ShowSituation(this);
